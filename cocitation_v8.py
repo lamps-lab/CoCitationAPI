@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 23 19:01:15 2020
 
-@author: weixi
+@author: weixin
 """
 
 #cocitationAll is a dictionary, not a list
