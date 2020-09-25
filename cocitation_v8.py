@@ -7,7 +7,7 @@ Created on Wed Sep 23 19:01:15 2020
 
 #cocitationAll is a dictionary, not a list
 #output has original doi
-#output has year information  (incomplete)
+#output has year information 
 #in the output is 'DOI'
 
 import requests
