@@ -8,6 +8,7 @@ If Paper A ---- cites ----> Paper B, then Paper A is the citing paper, Paper B i
 ==========================================================================================================================================
 
 How to use the files:
+
 1.
 Put SCORE.csv and cocitation_v8.py in the same directory and then run cocitation_v8.py. It will output cocitation.json and yearss.json in the same directory. 
 
@@ -21,5 +22,10 @@ Put SCORE.csv and cocitation_v7.py in the same directory and then run cocitation
 The difference is that:
 cocitation_v7.py can select papers that cited the source paper in a certain time range with the variable "YearGap". It's set to 3 by default and this can be modeified by the user.
 
-3
+3.
+Put SCORE.csv and bibliographic_coupling.py in the same directory and then run bibliographic_coupling.py.
+
 bibliographic_coupling.py selects the papers that cites the same paper with the source paper and then calculates bibliographic coupling values. Output is BibliographicCoupling.json.
+
+The variable "YearGap" selects the papers that cited the same paper with the source paper in a certain time range. It's set to 3 by default and this can be modeified by the user.
+
