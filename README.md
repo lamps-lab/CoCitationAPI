@@ -23,6 +23,8 @@ The difference is that:
 cocitation_v7.py can select papers that cited the source paper in a certain time range with the variable "YearGap". It's set to 3 by default and this can be modeified by the user.
 
 3.
+Bibliographic Coupling
+
 Put SCORE.csv and bibliographic_coupling.py in the same directory and then run bibliographic_coupling.py.
 
 bibliographic_coupling.py selects the papers that cites the same paper with the source paper and then calculates bibliographic coupling values. Output is BibliographicCoupling.json.
